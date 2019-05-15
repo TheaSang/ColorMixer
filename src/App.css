@@ -1,4 +1,4 @@
-.color1{
+/* .color1{
   width:300px;
   height: 300px;
 
@@ -12,6 +12,13 @@
   margin-top:200px;
   margin-left: 300px;
  
+}
+.color3{
+  width:300px;
+  height: 300px;
+  
+ 
+
 }
 .box{
   
@@ -29,7 +36,8 @@
 
 
 
-  width: 100%;
+  width: 50%;
+  height:100%;
   position: absolute;
   top: 50px;
   bottom: 0px;
@@ -44,8 +52,95 @@
   font-size:50px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  height: 80px;
 }
 .App{
   height:100%;
   background-color: lightgoldenrodyellow;
 }
+.button{
+display: flex;
+flex-direction: column;
+
+} */
+/* .title{
+  background-color:lightcoral;
+  position: absolute;
+
+  font-size:50px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  height: 20%;
+  width:100%}
+
+.App{
+  width:100%;
+  height:100% ;
+  position: relative;
+
+}
+
+
+
+.box{
+  width: 100%;
+  height:80%;
+  position: absolute;
+
+} */
+.title{
+  background-color:lightcoral;
+
+  font-size:50px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 14vh;
+  height: 14vh;
+  width:100vw;
+ 
+}
+
+.flex1{
+
+  background-color: #c4e6e6;
+  flex:1;
+  text-align: center;
+}
+.flex3{
+ 
+  width:100vw;
+  background-color: #d6ddc4;
+  height: 43vh;
+  text-align: center;
+  
+  
+}
+.flex2{
+  background-color: #b4bbbf;
+  flex:1;
+  text-align: center;
+
+
+  
+}
+
+.box{
+  text-align: center;
+  vertical-align: middle;
+  line-height: 45px;
+  display: flex;
+  height: 43vh;
+
+
+
+  
+}
+h2{
+  margin: 0;
+
+}
+
+
+
+
